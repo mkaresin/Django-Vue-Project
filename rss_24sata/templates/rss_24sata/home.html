@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RSS-home</title>
+</head>
+<body>
+  <h1>Hello RSS 24 Sata App - This is category: Tech - hardcoded </h1>
+  <!-- {{tech_title}} -->
+
+ 
+  {% for art in articles %}
+
+    <small><p>{{art.date_posted|date:"F d, Y"}}</p></small>
+    <h2><a href="{{art.link}}">{{art.title}}</a></h2>
+    <p>{{art.description}}</p>
+
+  {% endfor %}
+    
+  
+</body>
+</html>
