@@ -22,3 +22,8 @@ Use python manage.py runserver to run server on the backend side and ($ yarn ser
 
 
 The Vue application will be served from localhost:8080 and the Django API from localhost:8000.
+
+
+
+
+Keywords: Python ◦ Django ◦ Vue ◦ Django REST Framework ◦ JavaScript ◦ SQLite
